@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome css link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h2 id="main-title">Weather App</h2>
+      <h2 id="intro-phrase">Find Weather details of your desired city</h2>
+      <input
+        type="text"
+        name="cityName"
+        id="cityName"
+        placeholder="Enter City Name Ex: Kathmandu"
+      />
+
+      <button type="submit" id="search">
+        <i class="fas fa-2x fa-search"></i>
+      </button>
+
+      <div id="result">
+        <div id="city" class="result-font"></div>
+        <div id="temperature" class="result-font"></div>
+        <div id="description" class="result-font"></div>
+      </div>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+</html>
