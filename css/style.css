@@ -79,14 +79,6 @@ body {
   top: -160px;
 }
 
-.error {
-  color: red;
-}
-
-.success {
-  color: white;
-}
-
 /* universal styling */
 
 .result-font {
